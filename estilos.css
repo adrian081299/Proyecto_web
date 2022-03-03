@@ -1,0 +1,43 @@
+#cabecera{
+    /*background: #2173EE;*/
+    background-image:url("imagenes/imagen2.jpg");
+    height: 150px;
+    align-content: center;
+}
+@font-face{
+    font-family:'MiFuente';
+    src:url('ASMAN.ttf');
+}
+
+#logo{
+    margin:auto;
+    display: block;    
+    
+}
+/*li{
+    background-color: yellow;
+    display:inline;
+    padding: 20px;
+}*/
+li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+}
+li{
+	display: inline-block;
+	text-align: center;
+}
+
+#menu{
+	list-style: none;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	background: #092327;
+	margin:auto;
+	
+}
+li a:hover{
+	background: #2BB1F6 ;
+}
