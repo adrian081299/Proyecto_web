@@ -1,8 +1,13 @@
 #cabecera{
     /*background: #2173EE;*/
     background-image:url("imagenes/imagen2.jpg");
+    background-color: gray;
     height: 150px;
     align-content: center;
+    margin:auto;
+}
+#cuerpo{
+     background-color: #092327;
 }
 @font-face{
     font-family:'MiFuente';
@@ -10,8 +15,9 @@
 }
 
 #logo{
-    margin:auto;
-    display: block;    
+    margin-left: 4px;
+    display: block;   
+    margin-top: 1px; 
     
 }
 /*li{
@@ -24,6 +30,7 @@ li a{
 	color: white;
 	padding: 10px;
 	display: block;
+   
 }
 li{
 	display: inline-block;
@@ -31,13 +38,128 @@ li{
 }
 
 #menu{
+
 	list-style: none;
-	padding-top: 5px;
     padding-bottom: 5px;
-	background: #092327;
-	margin:auto;
+	/*background: #092327;*/
+    background:#163c60;
 	
+    margin-top: 5px;
+}
+
+#Anuncios{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1500px;
+    height: 800px;
+    padding: 10px;
+    
+    
+       
+
+}
+
+.col:hover{
+
+    -webkit-transform: scale(1.07);
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    
+}
+
+
+#inicio{
+    margin-left: 100px;
+    margin-top: 14px;
+}
+#productos{
+    margin-top: 14px;
+}
+#servicios{
+    margin-top: 14px;
+}
+#acerca{
+    margin-top: 14px;
+}
+#contactanos{
+    margin-top: 14px;
 }
 li a:hover{
 	background: #2BB1F6 ;
 }
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;/*400*/
+}
+
+.carousel-inner{
+ height: 400px; /*300*/
+
+ /*
+ width: 80%;
+ margin:auto;*/
+}
+
+
+#lado{
+    /*width: 20%;
+    height: 200px;*/
+    text-align: center;
+    float:right;
+    margin-top: 10px;
+   
+   
+}
+#lado2{
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    float:right;
+    margin-top: 10px;
+    display: inline-block;
+    
+    
+   
+}
+#pie_pagina{
+    margin-top: 100px;
+    size: 1000px;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    color:#3b5998;
+}
+#instagram{
+    width: 50px;
+    height: 50px;
+    color:#ac2bac;
+}
+#buscador{
+    float:right;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 14px;
+    
+}
+#carta2{
+    margin-top: 10px;
+}
+#carrito{
+    margin-top: 25px;
+    height: 10px;
+    color: white;
+    margin-left: 8px;
+}
+#linea{
+    margin-top: 100px;
+    color: red;
+    border-style: inset;
+    
+}
+
+#compus{
+    text-decoration: none;
+}
+
